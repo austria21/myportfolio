@@ -1,0 +1,63 @@
+#navLogo{
+    width: 18%;
+}
+.navBar{
+    position: fixed;
+    z-index: 1  ;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.aboutt{
+    height: 100%;
+   
+}
+
+.try{
+    border-radius: 50%;
+    width: 43%;
+}
+.fab{
+    font-size: 25px;
+    color:gray
+}
+.info-icon{
+    width: 70%;
+  
+}
+.mouseInGetInTouch {
+    border:solid 1px #dc3545;
+    background-color: white;
+    color:#dc3545;
+    cursor: pointer;
+}
+#logo{
+    width: 8%;
+}
+.btn:hover {
+    color:#dc3545;
+    border:solid 1px #dc3545;
+    background: white;
+   
+    cursor: pointer;
+}
+.btns:hover{
+    color:#dc3545;
+    border:solid 1px #dc3545;
+    background:white;
+   
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+    #logo{
+        width: 30%;
+    }
+    .try{
+        border-radius: 50%;
+        width: 60%;
+    }
+    .about h1{
+        font-size: 50px;
+    }
+}
