@@ -11,7 +11,7 @@ getInTouch.addEventListener("mouseleave", () => {
     getInTouch.classList.add("badge-danger");
 });
 
-const texts = ['love codes', 'teach how to code', 'make money from code'];
+const texts = ['am a junior developer', 'teach how to code', 'make money from code', 'love coding'];
 let count = 0;
 let index = 0;
 let currentText = '';
